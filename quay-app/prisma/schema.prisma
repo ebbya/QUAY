@@ -13,25 +13,25 @@ datasource db {
 }
 
 model StavsnasKajplacering {
-  PlaceringID   Int      @id @default(autoincrement())
-  Kaj           String   @db.VarChar(50)
-  Fartyg        String   @db.VarChar(50)
-  Ankomst       DateTime
-  Avgang        DateTime
+  placeringID   Int      @id @default(autoincrement())
+  kajplats           String   @db.VarChar(50)
+  fartyg        String   @db.VarChar(50)
+  ankomst       DateTime
+  avgang        DateTime
 }
 
 model StromkajenKajplacering {
-  PlaceringID   Int      @id @default(autoincrement())
-  Kaj           String   @db.VarChar(50)
-  Fartyg        String   @db.VarChar(50)
-  Ankomst       DateTime
-  Avgang        DateTime
+  placeringID   Int      @id @default(autoincrement())
+  kajplats           String   @db.VarChar(50)
+  fartyg        String   @db.VarChar(50)
+  ankomst       DateTime
+  avgang        DateTime
 }
 
 model VaxholmKajplacering {
-  PlaceringID   Int      @id @default(autoincrement())
-  Kaj           String   @db.VarChar(50)
-  Fartyg        String   @db.VarChar(50)
-  Ankomst       DateTime
-  Avgang        DateTime
+  placeringID   Int      @id @default(autoincrement())
+  kajplats           String   @db.VarChar(50)
+  fartyg        String   @db.VarChar(50)
+  ankomst       DateTime
+  avgang        DateTime
 }
